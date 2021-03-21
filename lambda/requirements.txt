@@ -1,0 +1,7 @@
+boto3~=1.14.63
+botocore~=1.17.63
+setuptools~=47.1.1
+pip~=21.0.1
+py~=1.10.0
+docutils~=0.15.2
+pytest~=6.2.2
