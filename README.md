@@ -4,6 +4,10 @@
 This project aims to create REST API to upload an image to s3 bucket using AWS Api-Gateway backed by AWS Lambda, 
 which is developed using AWS CDK. 
 
+Read the article here https://harshalpagar.medium.com/image-upload-using-aws-api-gateway-and-lambda-d4eccc631466
+
+![image](https://user-images.githubusercontent.com/25037512/111960346-a2647a00-8b15-11eb-83b9-462fd697167c.png)
+
 It demonstrates a CDK app with an instance of a stack (`image_uploader_app_stack`)
 which contains an Amazon API Gateway to expose REST API , which calls AWS Lambda function to upload image to S3 bucket.
 
@@ -14,7 +18,7 @@ which contains an Amazon API Gateway to expose REST API , which calls AWS Lambda
 
 # How to deploy
 
-Prerequisite : you should have AWS CLI [to configure enviroment] and AWS CDK on you machine to execute following command
+Prerequisite : you should have AWS CLI [to configure environment] and AWS CDK on you machine to execute following command
 
 Build the project
 ````
